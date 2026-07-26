@@ -36,6 +36,9 @@ jobs:
       - name: Get dependencies
         run: go mod download
 
+      - name: Test
+        run: go test ./...
+
       # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-environment-variable
       - name: Set environment variables
         run: |
