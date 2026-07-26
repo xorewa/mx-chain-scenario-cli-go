@@ -1,0 +1,15 @@
+# Disabled intentionally: this inherited workflow created release artifacts and
+# uploaded them through `gh release upload`. NewArc runs validation only from
+# the NewArc branch; releases are a separate, explicitly reviewed operation.
+#
+# Original workflow retained here for release-engineering reference.
+name: Attach artifacts on release (disabled)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  disabled:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: echo "Release publishing is disabled for NewArc."
