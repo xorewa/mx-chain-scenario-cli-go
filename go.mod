@@ -13,7 +13,7 @@ require (
 // NewArc nodes and contract tests. Keep the public import paths below for API
 // compatibility; resolve them to the reviewed xorewa revisions at this root,
 // because replace directives in transitive modules are not inherited by Go.
-replace github.com/multiversx/mx-chain-scenario-go => github.com/xorewa/mx-chain-scenario-go v0.0.0-20260725232843-412f12826876
+replace github.com/multiversx/mx-chain-scenario-go => github.com/xorewa/mx-chain-scenario-go v0.0.0-20260726022540-14b81e9037c2
 
 replace github.com/multiversx/mx-chain-vm-go => github.com/xorewa/mx-chain-vm-go v0.0.0-20260723154416-1fd7c24d3d0c
 
