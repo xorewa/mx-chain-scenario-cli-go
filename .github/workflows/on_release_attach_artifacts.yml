@@ -14,7 +14,11 @@ jobs:
   build:
     strategy:
       matrix:
-        runs-on: [ubuntu-22.04, macos-13]
+        # Keep the Darwin artifact x86_64: the SDK installer selects
+        # mx_scenario_go_darwin_amd64.zip on Intel macOS. `macos-latest`
+        # is Apple Silicon, while macos-13 is no longer a standard hosted
+        # runner image.
+        runs-on: [ubuntu-22.04, macos-15-intel]
     runs-on: ${{ matrix.runs-on }}
     name: Build
     steps:
