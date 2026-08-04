@@ -1,6 +1,6 @@
 module github.com/xorewa/mx-chain-scenario-cli-go
 
-go 1.26
+go 1.26.2
 
 require (
 	github.com/multiversx/mx-chain-scenario-go v1.7.0
