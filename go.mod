@@ -15,7 +15,7 @@ require (
 // because replace directives in transitive modules are not inherited by Go.
 replace github.com/multiversx/mx-chain-scenario-go => github.com/xorewa/mx-chain-scenario-go v0.0.0-20260801095210-b1a5df7767c7
 
-replace github.com/multiversx/mx-chain-vm-go => github.com/xorewa/mx-chain-vm-go v0.0.0-20260801181155-4d3459bc0c5d
+replace github.com/multiversx/mx-chain-vm-go => github.com/xorewa/mx-chain-vm-go v0.0.0-20260804115208-d94f6cfaebc8
 
 replace github.com/multiversx/mx-chain-vm-v1_4-go => github.com/xorewa/mx-chain-vm-v1_4-go v0.0.0-20260802050444-2001a4eac70e
 
